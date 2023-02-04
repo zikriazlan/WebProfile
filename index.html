@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>My Portfolio</title>
+    </head>
+    
+    <style>
+        body{
+            background: lightblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container{
+            position: relative;
+            width: 100%;
+            max-width: 1000px;
+            min-height: 1000px;
+            background: #fff;
+            margin: 100px;
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+        }
+        nav{
+            position: fixed;
+            top:0;
+            left:0;
+            width:100%;
+            height:80px;
+            padding: 10 px 90 px;
+            box-sizing: border-box;
+            background: rgb(101, 149, 253);
+            
+
+        }
+        nav p{
+            font-family: arial;
+            color: #222;
+            font-size: 20px;
+            line-height: 55px;
+            float:left;
+            padding: 0px 20px;
+            text-align: center;
+
+            
+        }
+        nav ul{
+            float: left;
+        }
+        nav ul li{
+            float:left;
+            list-style: none;
+        }
+        nav ul li a{
+            display: block;
+            font-family: arial;
+            color: #222;
+            font-size: 15px;
+            padding: 20px 14px;
+            text-decoration: none;
+
+        }
+        nav ul li a:hover{
+            background-color: #fff;
+
+        }
+        
+        .left{
+            position: relative;
+            background: #003147;
+            padding: 40px;
+
+            
+        }
+        .right{
+            position: relative;
+            background: #fbfdfd;
+            padding: 40px;
+        }
+        img {
+            height: 150px;
+            width: 150px; 
+            border-radius: 50%;
+            border: 10px solid #fff;
+
+            
+        }
+        h2{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            color: #fff;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+        }
+        h3{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: left;
+            color: #fff;
+            
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+            color: #fff;
+            
+        }
+        p1{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+            color: lightblue;
+            
+        }
+        p2{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+            color: grey;
+        }
+        h4{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: left;
+            color: #003147; 
+            font-size: 30PX;
+        }
+        h6{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: left;
+            color: #035981; 
+            font-size: 20PX; 
+        }
+        .skills .box{
+            position: relative;
+            width: 100%;
+            display: grid;  
+            grid-template-columns: 150px 1fr;
+            justify-content: center;
+            align-items: center;
+        }
+        .skills .box h5{
+            text-transform: uppercase;
+            color: rgba(90, 145, 145, 0.089);
+            font-weight: 500;
+        }
+        .skills .box  .percent{
+            position: relative;
+            width: 100%;
+            height: 10px;
+            background: red; 
+
+        }
+        .skills .box  .percent div{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 10px;
+            background: rgb(4, 213, 250); 
+
+        }
+        
+        
+
+    </style>
+    
+    <body>
+        
+        <div class="container">
+            <nav>
+                <p>PORTFOLIO</p>
+                    <ul>
+                        <li><a href="index.html">About me</a></li>
+                        <li><a href="subject.html">Subject</a></li>
+                        <li><a href="https://zikriazlan.github.io/MyProject/">Website</a></li>  
+                    </ul>   
+            </nav>
+        <div class="left">
+            
+            <img src = "fotoku.jpeg" height="300px" width="300px" border-radius = 50%>
+            <h2>MUHAMMAD ZIKRI ABIDI BIN AZLAN</h2>
+            <h3>CONTACT INFO</h3><br>
+            <p>+011-60505483</p>
+            <p>zikriazlan99@gmail.com</p>
+            <p>No 12A, Jalan 1D, Taman Desa Kaloi, Ulu yam Bharu, 44300 Batang Kali,Hulu Selangor, Selangor</p>
+            <br>
+            <h3>EDUCATION</h3>
+            <p1>2008-2013</p1>
+            <p>SK Ulu yam Bharu</p>
+            <p1>2014-2018</p1>
+            <p>SMK Syed Mashor</p>
+            <p1>2019-2022</p1>
+            <p>Diploma Science Computer & Mathematic</p>
+            <small><p>UiTM Kuala Terengganu</p></small>
+
+        
+        </div>
+        <div class="right">
+            <h4>PASSION</h4>
+            <p2>During my free time I like to play any kind of 
+                sport like badminton, futsal or sepak takraw. To me
+                it is a healthy way to reduce my stress. I would like 
+                prefer activities outdoor compare with indoor because 
+                I like to know people or see something new that I never explore
+                before.
+            </p2>
+            <pre>
+    <p2>Sometimes I also like to draw potret just to learn somthing new or add new skill. I learn
+draw potret from youtube. One of the reasons I start drawing is I like to see an art that I 
+crated by myself. It give me satisfaction when I reach the final result of my drawing </p2>
+            </pre>
+            
+            <div class = "skills">
+                <h4>PROGRAMMING LANGUAGE</h4>
+                <div class ="box">
+                    <h6>HTML</h6>
+                    <div class = "percent">
+                        <div style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class ="box">
+                    <h6>PHP</h6>
+                    <div class = "percent">
+                        <div style="width: 75%;"></div>  
+                    </div>
+                </div>
+                <div class ="box">
+                    <h6>CSS</h6>
+                    <div class = "percent">
+                        <div style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class ="box">
+                    <h6>C++</h6>
+                    <div class = "percent">
+                        <div style="width: 86%;"></div>
+                    </div>
+                </div>
+                <div class ="box">
+                    <h6>JAVA</h6>
+                    <div class = "percent">
+                        <div style="width: 55%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
